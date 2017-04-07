@@ -7,3 +7,4 @@ var gender = ["Male","Female"];
 var ethnicity = ["African-American","American Indian / Alaska Native","Asian / Pacific Islander",
                  "Caucasian","Hispanic","Middle Eastern","Multi-Racial","Other","Decline to state"];
 var householdIncome = ["0 - 15,000", "15,001 - 29,000", "29,001 - 46,000", "46,001 and over"];
+var stuff = "";
