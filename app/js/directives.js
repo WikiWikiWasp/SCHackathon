@@ -2,6 +2,8 @@
  * Created by Jason on 4/7/2017.
  */
 
+var app = angular.module('store', []);
+
 var maritalStats = ["Single","Married","Separated","Divorced","Widowed"];
 var gender = ["Male","Female"];
 var ethnicity = ["African-American","American Indian / Alaska Native","Asian / Pacific Islander",
@@ -11,4 +13,4 @@ var educationLevel = ["Less than high school", "GED", "High school graduate", "S
                       "Greater than Bachelor's Degree"];
 var govAssitance = ["No", "Yes"];
 var typeOfVehile = ["Coupe", "Sedan", "SUV", "Truck", "Motorcycle", "Bicycle", "None"];
-var crimalHistory = ["No", "Yes"];
+var crimalHistory = ["No", "No"];
