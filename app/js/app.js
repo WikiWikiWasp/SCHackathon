@@ -1,9 +1,9 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('hackathon', [
   'ngRoute',
-  'myApp.view1',
+  'myApp.dash',
   'myApp.view2',
   'myApp.version'
 ]).
