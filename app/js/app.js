@@ -1,14 +1,15 @@
-'use strict';
+(function () {
+    'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('hackathon', [
-  'ngRoute',
-  'myApp.dash',
-  'myApp.view2',
-  'myApp.version'
-]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+    angular.module('hackathon', ['ngRoute']);
 
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+        /*.controller('HackCTRL', function() {
+            //stuff
+        })
+        .directive('name', function () {
+            //stuff
+        });*/
+});
+
+
